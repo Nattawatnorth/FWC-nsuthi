@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            height: 120px; 
+            text-align: center; 
+        }
+        @media screen and (max-width: 600px) {
+            td {
+                display: block; 
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td style="background-color:darkkhaki">First cell</td>
+            <td style="background-color:darksalmon">Second cell</td>
+        </tr>
+    </table>
+
+</body>
+</html>

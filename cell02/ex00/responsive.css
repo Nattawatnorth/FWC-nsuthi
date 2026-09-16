@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;  
+}
+
+
+td {
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+    table, tbody, tr, td {
+        display: block;
+        width: 100%;
+    }
+
+
+    td {
+        box-sizing: border-box;
+    }
+}
